@@ -1,0 +1,194 @@
+# test coverage for  [standard (v10.0.1)](https://standardjs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-standard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-standard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-standard.svg)](https://travis-ci.org/npmtest/node-npmtest-standard)
+#### JavaScript Standard Style
+
+[![NPM](https://nodei.co/npm/standard.png?downloads=true)](https://www.npmjs.com/package/standard)
+
+| git-branch : | [alpha](https://github.com/npmtest/node-npmtest-standard/tree/alpha)|
+|--:|:--|
+| coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-standard/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-standard/build/coverage.html/index.html)|
+| test-report : | [![test-report](https://npmtest.github.io/node-npmtest-standard/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-standard/build/test-report.html)|
+| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-standard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-standard/tree/gh-pages/build)|
+
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-standard/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-standard/build/coverage.html/index.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-standard/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-standard%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-standard/build/test-report.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-standard/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-standard%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-standard/build/apidoc.html)
+
+![npmPackageListing](https://npmtest.github.io/node-npmtest-standard/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmtest.github.io/node-npmtest-standard/build/screenCapture.npmPackageDependencyTree.svg)
+
+
+
+# package.json
+
+```json
+
+{
+    "author": {
+        "name": "Feross Aboukhadijeh",
+        "email": "feross@feross.org",
+        "url": "http://feross.org/"
+    },
+    "bin": {
+        "standard": "./bin/cmd.js"
+    },
+    "bugs": {
+        "url": "https://github.com/feross/standard/issues"
+    },
+    "dependencies": {
+        "eslint": "~3.19.0",
+        "eslint-config-standard": "10.2.0",
+        "eslint-config-standard-jsx": "4.0.1",
+        "eslint-plugin-import": "~2.2.0",
+        "eslint-plugin-node": "~4.2.2",
+        "eslint-plugin-promise": "~3.5.0",
+        "eslint-plugin-react": "~6.10.0",
+        "eslint-plugin-standard": "~3.0.1",
+        "standard-engine": "~7.0.0"
+    },
+    "description": "JavaScript Standard Style",
+    "devDependencies": {
+        "babel-eslint": "^7.0.0",
+        "cross-spawn": "^5.0.1",
+        "eslint-index": "^1.3.0",
+        "minimist": "^1.2.0",
+        "mkdirp": "^0.5.1",
+        "run-parallel-limit": "^1.0.3",
+        "standard-packages": "^3.1.9",
+        "tape": "^4.6.0"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "99c1578fcca8d6f54ce8c2711f5452443e839082",
+        "tarball": "https://registry.npmjs.org/standard/-/standard-10.0.1.tgz"
+    },
+    "engines": {
+        "node": ">=4"
+    },
+    "gitHead": "d37028e3443d86b508f74dbb84da310b48533d00",
+    "homepage": "https://standardjs.com",
+    "keywords": [
+        "JavaScript Standard Style",
+        "check",
+        "checker",
+        "code",
+        "code checker",
+        "code linter",
+        "code standards",
+        "code style",
+        "enforce",
+        "eslint",
+        "hint",
+        "jscs",
+        "jshint",
+        "lint",
+        "policy",
+        "quality",
+        "simple",
+        "standard",
+        "standard style",
+        "style",
+        "style checker",
+        "style linter",
+        "verify"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "bret",
+            "email": "bcomnes@gmail.com"
+        },
+        {
+            "name": "dcousens",
+            "email": "email@dcousens.com"
+        },
+        {
+            "name": "dcposch",
+            "email": "dcposch@dcpos.ch"
+        },
+        {
+            "name": "feross",
+            "email": "feross@feross.org"
+        },
+        {
+            "name": "flet",
+            "email": "flettre@gmail.com"
+        },
+        {
+            "name": "jb55",
+            "email": "bill@casarin.me"
+        },
+        {
+            "name": "jprichardson",
+            "email": "jprichardson@gmail.com"
+        },
+        {
+            "name": "linusu",
+            "email": "linus@folkdatorn.se"
+        },
+        {
+            "name": "mafintosh",
+            "email": "mathiasbuus@gmail.com"
+        },
+        {
+            "name": "maxogden",
+            "email": "max@maxogden.com"
+        },
+        {
+            "name": "othiym23",
+            "email": "ogd@aoaioxxysz.net"
+        },
+        {
+            "name": "reggi",
+            "email": "thomas@reggi.com"
+        },
+        {
+            "name": "rstacruz",
+            "email": "dropbox@ricostacruz.com"
+        },
+        {
+            "name": "timoxley",
+            "email": "secoif@gmail.com"
+        },
+        {
+            "name": "watson",
+            "email": "w@tson.dk"
+        },
+        {
+            "name": "xjamundx",
+            "email": "jamund@gmail.com"
+        },
+        {
+            "name": "yoshuawuyts",
+            "email": "i@yoshuawuyts.com"
+        }
+    ],
+    "name": "standard",
+    "optionalDependencies": {},
+    "readme": "ERROR: No README data found!",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/feross/standard.git"
+    },
+    "scripts": {
+        "show-rules": "eslint-index eslintrc.json",
+        "show-rules-disabled": "eslint-index eslintrc.json --status omitted off",
+        "show-summary": "eslint-index eslintrc.json --format table",
+        "test": "./bin/cmd.js --verbose && tape test/*.js",
+        "test-disabled": "npm test -- --disabled",
+        "test-offline": "npm test -- --offline",
+        "test-offline-quick": "npm test -- --offline --quick",
+        "test-quick": "npm test -- --quick",
+        "update-authors": "./bin/update-authors.sh"
+    },
+    "version": "10.0.1"
+}
+```
+
+
+
+# misc
+- this document was created with [utility2](https://github.com/kaizhu256/node-utility2)
