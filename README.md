@@ -1,7 +1,7 @@
-# test coverage for  [standard (v10.0.1)](https://standardjs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-standard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-standard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-standard.svg)](https://travis-ci.org/npmtest/node-npmtest-standard)
+# test coverage for  [standard (v10.0.2)](https://standardjs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-standard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-standard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-standard.svg)](https://travis-ci.org/npmtest/node-npmtest-standard)
 #### JavaScript Standard Style
 
-[![NPM](https://nodei.co/npm/standard.png?downloads=true)](https://www.npmjs.com/package/standard)
+[![NPM](https://nodei.co/npm/standard.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/standard)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-standard/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,11 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-standard/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-standard/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-standard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-standard/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-standard/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-standard/build/coverage.html/index.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-standard/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-standard/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-standard/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-standard%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-standard/build/test-report.html)
+[![test-report](https://npmtest.github.io/node-npmtest-standard/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-standard/build/test-report.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-standard/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-standard%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-standard/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-standard/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-standard/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-standard/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +28,6 @@
 {
     "author": {
         "name": "Feross Aboukhadijeh",
-        "email": "feross@feross.org",
         "url": "http://feross.org/"
     },
     "bin": {
@@ -39,7 +38,7 @@
     },
     "dependencies": {
         "eslint": "~3.19.0",
-        "eslint-config-standard": "10.2.0",
+        "eslint-config-standard": "10.2.1",
         "eslint-config-standard-jsx": "4.0.1",
         "eslint-plugin-import": "~2.2.0",
         "eslint-plugin-node": "~4.2.2",
@@ -61,13 +60,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "99c1578fcca8d6f54ce8c2711f5452443e839082",
-        "tarball": "https://registry.npmjs.org/standard/-/standard-10.0.1.tgz"
+        "shasum": "974c1c53cc865b075a4b576e78441e1695daaf7b",
+        "tarball": "https://registry.npmjs.org/standard/-/standard-10.0.2.tgz"
     },
     "engines": {
         "node": ">=4"
     },
-    "gitHead": "d37028e3443d86b508f74dbb84da310b48533d00",
+    "gitHead": "8b43d45da875f7324b340da42773baaef69a74fc",
     "homepage": "https://standardjs.com",
     "keywords": [
         "JavaScript Standard Style",
@@ -98,77 +97,59 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "bret",
-            "email": "bcomnes@gmail.com"
+            "name": "bret"
         },
         {
-            "name": "dcousens",
-            "email": "email@dcousens.com"
+            "name": "dcousens"
         },
         {
-            "name": "dcposch",
-            "email": "dcposch@dcpos.ch"
+            "name": "dcposch"
         },
         {
-            "name": "feross",
-            "email": "feross@feross.org"
+            "name": "feross"
         },
         {
-            "name": "flet",
-            "email": "flettre@gmail.com"
+            "name": "flet"
         },
         {
-            "name": "jb55",
-            "email": "bill@casarin.me"
+            "name": "jb55"
         },
         {
-            "name": "jprichardson",
-            "email": "jprichardson@gmail.com"
+            "name": "jprichardson"
         },
         {
-            "name": "linusu",
-            "email": "linus@folkdatorn.se"
+            "name": "linusu"
         },
         {
-            "name": "mafintosh",
-            "email": "mathiasbuus@gmail.com"
+            "name": "mafintosh"
         },
         {
-            "name": "maxogden",
-            "email": "max@maxogden.com"
+            "name": "maxogden"
         },
         {
-            "name": "othiym23",
-            "email": "ogd@aoaioxxysz.net"
+            "name": "othiym23"
         },
         {
-            "name": "reggi",
-            "email": "thomas@reggi.com"
+            "name": "reggi"
         },
         {
-            "name": "rstacruz",
-            "email": "dropbox@ricostacruz.com"
+            "name": "rstacruz"
         },
         {
-            "name": "timoxley",
-            "email": "secoif@gmail.com"
+            "name": "timoxley"
         },
         {
-            "name": "watson",
-            "email": "w@tson.dk"
+            "name": "watson"
         },
         {
-            "name": "xjamundx",
-            "email": "jamund@gmail.com"
+            "name": "xjamundx"
         },
         {
-            "name": "yoshuawuyts",
-            "email": "i@yoshuawuyts.com"
+            "name": "yoshuawuyts"
         }
     ],
     "name": "standard",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/feross/standard.git"
@@ -184,7 +165,7 @@
         "test-quick": "npm test -- --quick",
         "update-authors": "./bin/update-authors.sh"
     },
-    "version": "10.0.1"
+    "version": "10.0.2"
 }
 ```
 
