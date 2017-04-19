@@ -1,4 +1,7 @@
-# test coverage for  [standard (v10.0.2)](https://standardjs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-standard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-standard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-standard.svg)](https://travis-ci.org/npmtest/node-npmtest-standard)
+# npmtest-standard
+
+#### test coverage for  [standard (v10.0.2)](https://standardjs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-standard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-standard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-standard.svg)](https://travis-ci.org/npmtest/node-npmtest-standard)
+
 #### JavaScript Standard Style
 
 [![NPM](https://nodei.co/npm/standard.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/standard)
@@ -9,9 +12,15 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-standard/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-standard/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-standard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-standard/tree/gh-pages/build)|
 
+- [https://npmtest.github.io/node-npmtest-standard/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-standard/build/coverage.html/index.html)
+
 [![istanbul-coverage](https://npmtest.github.io/node-npmtest-standard/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-standard/build/coverage.html/index.html)
 
+- [https://npmtest.github.io/node-npmtest-standard/build/test-report.html](https://npmtest.github.io/node-npmtest-standard/build/test-report.html)
+
 [![test-report](https://npmtest.github.io/node-npmtest-standard/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-standard/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-standard/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-standard/build/apidoc.html)
 
 [![apidoc](https://npmdoc.github.io/node-npmdoc-standard/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-standard/build/apidoc.html)
 
